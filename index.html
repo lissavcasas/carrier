@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="form-group col-sm-4">
+        <div class="col-input" style="width:100%;max-width:100%" data-column="CARRIER_FLG">
+          <div class="input-checkbox">
+            <input id="Form5c76e1da4fba5_carrier_flg_edit" name="carrier_flg_edit" data-editor="checkbox"
+              data-field-name="CARRIER_FLG" data-legacy-field-name="CARRIER_FLG" data-pgui-legacy-validate="true" type="checkbox"
+              value="on">
+          </div>
+          <label class="control-label" for="Form5c76e1da4fba5_carrier_flg_edit" data-column="CARRIER_FLG">
+            Transportista
+            <span class="required-mark" style="display: none">*</span>
+            <div class="pgui-field-options btn-group btn-group-xs btn-group-justified" data-toggle="buttons">
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group col-sm-8">
+        <label class="control-label" for="Form5c76e1da4fba5_gps_type_code_edit" data-column="GPS_TYPE_CODE">
+          Tipo GPS
+          <span class="required-mark" style="display: none">*</span>
+          <div class="pgui-field-options btn-group btn-group-xs btn-group-justified" data-toggle="buttons">
+          </div>
+        </label>
+        <div class="col-input" style="width:100%;max-width:100%" data-column="GPS_TYPE_CODE">
+          <div id="Form5c76e1da4fba5_gps_type_code_edit" data-editor="radio" data-editor-name="gps_type_code_edit"
+            data-field-name="GPS_TYPE_CODE" data-inline="1" class="input-group" data-legacy-field-name="GPS_TYPE_CODE"
+            data-pgui-legacy-validate="true"><label class="radio-inline js-value"><input type="radio" name="gps_type_code_edit"
+                value="NA" />No Aplica</label><label class="radio-inline js-value"><input type="radio" name="gps_type_code_edit"
+                value="TEL" />Telemetria</label><label class="radio-inline js-value"><input type="radio" name="gps_type_code_edit"
+                value="REC" />Recupero</label><label class="radio-inline js-value"><input type="radio" name="gps_type_code_edit"
+                value="TCC" />Telemetria con Cortacombustible</label></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
